@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "turbulent water pipe flow, Re=20000, diameter=50mm, length=500mm",
+  "score": 0.8823490919079632,
+  "runtime_s": 64.09,
+  "params": {
+    "geometry_type": "pipe",
+    "is_3d": true,
+    "length": 0.5,
+    "width": 0.05,
+    "height": 0.05,
+    "diameter": 0.05,
+    "reynolds_number": 20000.0,
+    "inlet_velocity": 0.39999999999999997,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1e-06,
+    "density": 1000.0,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "pipe flow Re=20000 D=0.05m L=0.5m"
+  }
+}

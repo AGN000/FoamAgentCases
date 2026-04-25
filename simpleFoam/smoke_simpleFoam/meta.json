@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "simpleFoam lid cavity",
+  "score": 0.686239206097175,
+  "runtime_s": 2.8,
+  "params": {
+    "geometry_type": "lid_driven_cavity",
+    "is_3d": false,
+    "length": 1.0,
+    "width": 1.0,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 100.0,
+    "inlet_velocity": 1.0,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 0.01,
+    "density": 1.0,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 500.0,
+    "angle_of_attack": null,
+    "extraction_notes": "test"
+  }
+}

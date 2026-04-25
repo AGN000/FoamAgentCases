@@ -1,0 +1,28 @@
+{
+  "solver": "icoFoam",
+  "prompt": "laminar transient lid cavity Re=300 small 0.4m square icoFoam",
+  "score": 0.8132721635065324,
+  "runtime_s": 5.31,
+  "params": {
+    "geometry_type": "lid_driven_cavity",
+    "is_3d": false,
+    "length": 0.4,
+    "width": 0.4,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 300.0,
+    "inlet_velocity": 0.011250000000000001,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 10.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient lid-driven cavity Re=300 \u2192 icoFoam"
+  }
+}

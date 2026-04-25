@@ -1,0 +1,28 @@
+{
+  "solver": "icoFoam",
+  "prompt": "transient laminar pipe startup flow, Re=1000, D=2cm, L=30cm, air, icoFoam",
+  "score": 0.8925000000000002,
+  "runtime_s": 91.27,
+  "params": {
+    "geometry_type": "pipe",
+    "is_3d": true,
+    "length": 0.3,
+    "width": 0.02,
+    "height": 0.02,
+    "diameter": 0.02,
+    "reynolds_number": 1000.0,
+    "inlet_velocity": 0.75,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 5.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient pipe Re=1000 D=0.02m L=0.3m"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "develop turbulent boundary layer in a pipe: Re=50000, D=5cm, L=0.5m, 3D, kOmegaSST, wall functions",
+  "score": 0.8000000000000002,
+  "runtime_s": 0.31,
+  "params": {
+    "geometry_type": "pipe",
+    "is_3d": true,
+    "length": 0.5,
+    "width": 0.05,
+    "height": 0.05,
+    "diameter": 0.05,
+    "reynolds_number": 50000.0,
+    "inlet_velocity": 15.0,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "pipe flow Re=50000 D=0.05m L=0.5m"
+  }
+}

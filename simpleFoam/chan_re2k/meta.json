@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "2D incompressible channel flow, air, Re=2000, length 8m, channel height 0.08m",
+  "score": 0.7500000000000001,
+  "runtime_s": 0.3130958080291748,
+  "params": {
+    "geometry_type": "channel",
+    "is_3d": false,
+    "length": 8.0,
+    "width": 0.08,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 2000.0,
+    "inlet_velocity": 0.75,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "channel flow Re=2000 L=8.0m H=0.08m"
+  }
+}

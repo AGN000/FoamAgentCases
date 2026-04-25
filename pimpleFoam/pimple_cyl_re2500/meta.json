@@ -1,0 +1,28 @@
+{
+  "solver": "pimpleFoam",
+  "prompt": "transient turbulent cylinder Re=2500, D=0.1m, 2D, pimpleFoam, unsteady wake",
+  "score": 0.8635687391858792,
+  "runtime_s": 48.52,
+  "params": {
+    "geometry_type": "cylinder",
+    "is_3d": false,
+    "length": 2.0,
+    "width": 0.8,
+    "height": 0.001,
+    "diameter": 0.1,
+    "reynolds_number": 2500.0,
+    "inlet_velocity": 0.37499999999999994,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 20.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient cylinder Re=2500 D=0.1m"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "A turbulent pipe flow simulation with a pipe diameter of 0.05 meters and length of 0.5 meters. The fluid is air with a kinematic viscosity of 1.5e-5 m^2/s and a density of 1.225 kg/m^3. The inlet velocity magnitude is calculated to achieve a Reynolds number of 50000, resulting in a velocity of 1.67 m/s. The flow regime is turbulent (Re > 4000). The simulation is steady-state. The domain is 2D with a depth of 0.001 meters. The appropriate turbulence model is kOmegaSST.",
+  "score": 0.9,
+  "runtime_s": 12.84,
+  "params": {
+    "geometry_type": "pipe",
+    "is_3d": false,
+    "length": 1.0,
+    "width": 1.0,
+    "height": 0.001,
+    "diameter": 0.05,
+    "reynolds_number": 5566.666666666667,
+    "inlet_velocity": 1.67,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": 0.0,
+    "extraction_notes": "The flow regime is set to turbulent based on the Reynolds number calculation. The turbulence model is set to kOmegaSST, which is appropriate for turbulent flows. The domain is 2D with a height of 0.001 meters to simulate a thin empty boundary condition domain."
+  }
+}

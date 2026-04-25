@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "Pipe flow simulation with a diameter of 0.05 meters and a length of 0.5 meters. Air is used as the fluid with a kinematic viscosity of 1.5e-5 m^2/s and a density of 1.225 kg/m^3. The inlet velocity is 10 m/s in the axial direction. The Reynolds number is calculated to be 333333, indicating a turbulent flow regime. The simulation is steady-state and 3D. The appropriate turbulence model is kOmegaSST.",
+  "score": 0.8808548901403871,
+  "runtime_s": 67.57,
+  "params": {
+    "geometry_type": "pipe",
+    "is_3d": true,
+    "length": 0.5,
+    "width": 0.05,
+    "height": 0.05,
+    "diameter": 0.05,
+    "reynolds_number": 33333.333333333336,
+    "inlet_velocity": 10.0,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": 0.0,
+    "extraction_notes": "Reynolds number calculated to be 333333, indicating turbulent flow regime."
+  }
+}

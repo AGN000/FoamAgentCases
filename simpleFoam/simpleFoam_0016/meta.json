@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "A 1m x 1m lid-driven cavity with a lid velocity of 1 m/s. The fluid is air with a kinematic viscosity of 1.5e-5 m^2/s and a density of 1.225 kg/m^3. The Reynolds number is 100, indicating a laminar flow regime. The simulation is steady-state and 2D with a domain depth of 0.001 m. The appropriate turbulence model is laminar.",
+  "score": 0.7602926716897768,
+  "runtime_s": 0.49,
+  "params": {
+    "geometry_type": "lid_driven_cavity",
+    "is_3d": false,
+    "length": 1.0,
+    "width": 1.0,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 66666.66666666667,
+    "inlet_velocity": 1.0,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": null,
+    "extraction_notes": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "A backward-facing step simulation with a step height of 0.08 meters, Reynolds number Re=600, using air as the fluid (kinematic viscosity nu=1.5e-5 m^2/s, density rho=1.225 kg/m^3). The flow is 2D with a domain depth of 0.001 meters. The flow is laminar since Re<2300, and the appropriate turbulence model is laminar. The simulation is steady-state.",
+  "score": 0.808066087725545,
+  "runtime_s": 0.79,
+  "params": {
+    "geometry_type": "backward_facing_step",
+    "is_3d": false,
+    "length": 0.1,
+    "width": 0.05,
+    "height": 0.001,
+    "diameter": 0.08,
+    "reynolds_number": 4.2666666666666675,
+    "inlet_velocity": 0.0008,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": 0.0,
+    "extraction_notes": "2D backward-facing step with step height 0.08m, Re=600, air as fluid, laminar flow, steady-state simulation."
+  }
+}

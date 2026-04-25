@@ -1,0 +1,28 @@
+{
+  "solver": "icoFoam",
+  "prompt": "icoFoam laminar Re200",
+  "score": 0.8714382261331793,
+  "runtime_s": 54.2,
+  "params": {
+    "geometry_type": "cylinder",
+    "is_3d": false,
+    "length": 2.0,
+    "width": 0.4,
+    "height": 0.001,
+    "diameter": 0.1,
+    "reynolds_number": 200.0,
+    "inlet_velocity": 0.3,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 0.00015,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 5.0,
+    "angle_of_attack": null,
+    "extraction_notes": "test"
+  }
+}

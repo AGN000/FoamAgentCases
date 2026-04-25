@@ -1,0 +1,28 @@
+{
+  "solver": "buoyantSimpleFoam",
+  "prompt": "buoyancy test",
+  "score": 0.7120724619558808,
+  "runtime_s": 1.27,
+  "params": {
+    "geometry_type": "lid_driven_cavity",
+    "is_3d": false,
+    "length": 3.0,
+    "width": 3.0,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": null,
+    "inlet_velocity": 0.0,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.2,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": true,
+    "is_multiphase": false,
+    "end_time": 200.0,
+    "angle_of_attack": null,
+    "extraction_notes": "test"
+  }
+}

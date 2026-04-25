@@ -1,0 +1,28 @@
+{
+  "solver": "icoFoam",
+  "prompt": "vortex shedding behind a cylinder at Re=500, D=0.1m, 2D transient laminar, icoFoam",
+  "score": 0.8646222556551778,
+  "runtime_s": 29.23,
+  "params": {
+    "geometry_type": "cylinder",
+    "is_3d": false,
+    "length": 2.0,
+    "width": 0.8,
+    "height": 0.001,
+    "diameter": 0.1,
+    "reynolds_number": 500.0,
+    "inlet_velocity": 0.075,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 20.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient cylinder Re=500 D=0.1m"
+  }
+}

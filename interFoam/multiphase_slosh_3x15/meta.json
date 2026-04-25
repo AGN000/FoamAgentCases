@@ -1,0 +1,28 @@
+{
+  "solver": "interFoam",
+  "prompt": "liquid sloshing in a 3m \u00d7 1.5m container, water and air, transient VOF interFoam",
+  "score": 0.8385665829171935,
+  "runtime_s": 0.02,
+  "params": {
+    "geometry_type": "box",
+    "is_3d": false,
+    "length": 3.0,
+    "width": 1.5,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 10000.0,
+    "inlet_velocity": 0.01,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1e-06,
+    "density": 1000.0,
+    "flow_regime": "turbulent",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": true,
+    "end_time": 2.0,
+    "angle_of_attack": null,
+    "extraction_notes": "sloshing tank VOF L=3.0m H=1.5m \u2192 interFoam"
+  }
+}

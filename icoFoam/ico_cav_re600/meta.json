@@ -1,0 +1,28 @@
+{
+  "solver": "icoFoam",
+  "prompt": "transient lid-driven cavity flow Re=600, 1m square, laminar air, icoFoam",
+  "score": 0.8134135295631374,
+  "runtime_s": 59.88,
+  "params": {
+    "geometry_type": "lid_driven_cavity",
+    "is_3d": false,
+    "length": 1.0,
+    "width": 1.0,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 600.0,
+    "inlet_velocity": 0.009000000000000001,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 10.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient lid-driven cavity Re=600 \u2192 icoFoam"
+  }
+}

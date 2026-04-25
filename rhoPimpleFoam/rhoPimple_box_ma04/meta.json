@@ -1,0 +1,28 @@
+{
+  "solver": "rhoPimpleFoam",
+  "prompt": "unsteady compressible channel flow at Mach 0.4, L=2m, H=0.1m, air, rhoPimpleFoam",
+  "score": 0.8679951834755464,
+  "runtime_s": 18.39,
+  "params": {
+    "geometry_type": "box",
+    "is_3d": false,
+    "length": 2.0,
+    "width": 0.1,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 925836.5586502478,
+    "inlet_velocity": 138.87548379753716,
+    "outlet_pressure": 101325.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": true,
+    "is_compressible": true,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 0.05,
+    "angle_of_attack": null,
+    "extraction_notes": "compressible box Ma=0.4 L=2.0m H=0.1m"
+  }
+}

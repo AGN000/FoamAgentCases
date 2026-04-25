@@ -1,0 +1,28 @@
+{
+  "solver": "icoFoam",
+  "prompt": "laminar pipe Re=1500, D=0.025m, L=0.4m, transient icoFoam",
+  "score": 0.8925000000000002,
+  "runtime_s": 90.86,
+  "params": {
+    "geometry_type": "pipe",
+    "is_3d": true,
+    "length": 0.4,
+    "width": 0.025,
+    "height": 0.025,
+    "diameter": 0.025,
+    "reynolds_number": 1500.0,
+    "inlet_velocity": 0.8999999999999999,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 5.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient pipe Re=1500 D=0.025m L=0.4m"
+  }
+}

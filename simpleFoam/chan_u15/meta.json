@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "2D air channel, centerline velocity 1.5 m/s, H=0.1m, L=5m, nu=1.5e-5 m2/s",
+  "score": 0.8300537456560411,
+  "runtime_s": 4.97,
+  "params": {
+    "geometry_type": "channel",
+    "is_3d": false,
+    "length": 5.0,
+    "width": 0.1,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 10000.0,
+    "inlet_velocity": 2.9999999999999996,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "channel flow Re=10000 L=5.0m H=0.1m"
+  }
+}

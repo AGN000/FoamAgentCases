@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "benchmark cavity flow, lid velocity U=1 m/s, 1m square, nu=0.001 m2/s (Re=1000)",
+  "score": 0.8309578864021555,
+  "runtime_s": 264.47,
+  "params": {
+    "geometry_type": "lid_driven_cavity",
+    "is_3d": false,
+    "length": 1.0,
+    "width": 1.0,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 1000.0,
+    "inlet_velocity": 0.015000000000000001,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 2000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "lid-driven cavity Re=1000"
+  }
+}

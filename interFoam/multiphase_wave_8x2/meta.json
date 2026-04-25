@@ -1,0 +1,28 @@
+{
+  "solver": "interFoam",
+  "prompt": "free surface channel flow: 8m \u00d7 2m, water and air, VOF simulation, unsteady",
+  "score": 0.8403534806781021,
+  "runtime_s": 0.05,
+  "params": {
+    "geometry_type": "channel",
+    "is_3d": false,
+    "length": 8.0,
+    "width": 2.0,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 10000.0,
+    "inlet_velocity": 1.0,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1e-06,
+    "density": 1000.0,
+    "flow_regime": "turbulent",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": true,
+    "end_time": 5.0,
+    "angle_of_attack": null,
+    "extraction_notes": "wave channel VOF L=8.0m H=2.0m \u2192 interFoam"
+  }
+}

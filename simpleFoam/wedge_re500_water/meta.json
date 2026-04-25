@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "axisymmetric laminar water pipe, Re=500, D=20mm, L=300mm, wedge geometry",
+  "score": 0.8000000000000002,
+  "runtime_s": 0.37,
+  "params": {
+    "geometry_type": "wedge",
+    "is_3d": true,
+    "length": 0.3,
+    "width": 0.02,
+    "height": 0.02,
+    "diameter": 0.02,
+    "reynolds_number": 500.0,
+    "inlet_velocity": 0.025,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1e-06,
+    "density": 1000.0,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "axisymmetric wedge pipe Re=500 D=0.02m L=0.3m"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "A 2D CFD simulation of flow past a circular cylinder with a diameter of 0.1 meters. The fluid is air with kinematic viscosity \u03bd = 1.5e-5 m^2/s and density \u03c1 = 1.225 kg/m^3. The domain is 2 meters long and 0.4 meters high, with the cylinder centered. The flow is steady-state and laminar (Re = 150 < 2300). The turbulence model used is the laminar model.",
+  "score": 0.8617416276581229,
+  "runtime_s": 40.89,
+  "params": {
+    "geometry_type": "cylinder",
+    "is_3d": false,
+    "length": 10.0,
+    "width": 4.0,
+    "height": 0.001,
+    "diameter": 0.1,
+    "reynolds_number": 6666.666666666667,
+    "inlet_velocity": 1.0,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": 0.0,
+    "extraction_notes": "2D simulation of flow past a circular cylinder with specified parameters."
+  }
+}

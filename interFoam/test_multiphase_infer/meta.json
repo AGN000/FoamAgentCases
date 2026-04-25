@@ -1,0 +1,28 @@
+{
+  "solver": "interFoam",
+  "prompt": "A 2D box with dimensions 4m wide and 2m tall is used for a dam break simulation involving water. The fluid properties are water with a kinematic viscosity of 1e-6 m^2/s and a density of 1000 kg/m^3. The water is initially at rest behind a dam, and the simulation involves the sudden release of the water, causing it to collapse and flow out of the box. The flow regime is expected to be turbulent due to the high velocity gradients that will develop. The simulation is transient, as the water column collapse and flow dynamics are time-dependent. The appropriate turbulence model for this case is kOmegaSST. The domain depth is 0.001 m, and the simulation will be performed using the pimpleFoam solver.",
+  "score": 0.779192070544681,
+  "runtime_s": 0.07,
+  "params": {
+    "geometry_type": "box",
+    "is_3d": false,
+    "length": 1.0,
+    "width": 4.0,
+    "height": 0.001,
+    "diameter": 0.0,
+    "reynolds_number": 266666.6666666667,
+    "inlet_velocity": 1.0,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": true,
+    "is_compressible": true,
+    "has_heat_transfer": true,
+    "is_multiphase": true,
+    "end_time": 1000.0,
+    "angle_of_attack": 0.0,
+    "extraction_notes": "2D dam break simulation with water. Turbulent flow regime expected due to high velocity gradients. Transient simulation using pimpleFoam solver. Fluid properties: water with kinematic viscosity of 1e-6 m^2/s and density of 1000 kg/m^3. Domain depth is 0.001 m for thin empty BC domain in 2D case. Inlet velocity is initially 0.0 as water is at rest behind the dam. No specific outlet pressure mentioned, assuming atmospheric pressure. No heat transfer or compressible flow involved in this case."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "driven cavity simulation at Re=3200, 2D, steady-state with air",
+  "score": 0.7500000000000001,
+  "runtime_s": 0.2930471897125244,
+  "params": {
+    "geometry_type": "lid_driven_cavity",
+    "is_3d": false,
+    "length": 1.0,
+    "width": 1.0,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 3200.0,
+    "inlet_velocity": 0.048,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 2000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "lid-driven cavity Re=3200"
+  }
+}

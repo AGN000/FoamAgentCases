@@ -1,0 +1,28 @@
+{
+  "solver": "rhoSimpleFoam",
+  "prompt": "compressible duct flow Ma=0.3, small channel L=1m H=0.05m, steady, air, rhoSimpleFoam",
+  "score": 0.9000000000000001,
+  "runtime_s": 2.22,
+  "params": {
+    "geometry_type": "box",
+    "is_3d": false,
+    "length": 1.0,
+    "width": 0.05,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 347188.70949384285,
+    "inlet_velocity": 104.15661284815285,
+    "outlet_pressure": 101325.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": true,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 500.0,
+    "angle_of_attack": null,
+    "extraction_notes": "compressible box Ma=0.3 L=1.0m H=0.05m"
+  }
+}

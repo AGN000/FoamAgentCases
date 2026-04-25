@@ -1,0 +1,28 @@
+{
+  "solver": "icoFoam",
+  "prompt": "laminar channel Re=800, L=5m H=0.15m, 2D transient air icoFoam",
+  "score": 0.767393892940396,
+  "runtime_s": 93.99,
+  "params": {
+    "geometry_type": "channel",
+    "is_3d": false,
+    "length": 5.0,
+    "width": 0.15,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 800.0,
+    "inlet_velocity": 0.16,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 10.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient channel Re=800 L=5.0m H=0.15m"
+  }
+}

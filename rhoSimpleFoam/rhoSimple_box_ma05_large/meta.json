@@ -1,0 +1,28 @@
+{
+  "solver": "rhoSimpleFoam",
+  "prompt": "steady subsonic compressible channel Ma=0.5, larger domain L=3m H=0.2m, air, RANS",
+  "score": 0.8500000000000001,
+  "runtime_s": 1.97,
+  "params": {
+    "geometry_type": "box",
+    "is_3d": false,
+    "length": 3.0,
+    "width": 0.2,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 2314591.3966256194,
+    "inlet_velocity": 173.59435474692143,
+    "outlet_pressure": 101325.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": true,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 500.0,
+    "angle_of_attack": null,
+    "extraction_notes": "compressible box Ma=0.5 L=3.0m H=0.2m"
+  }
+}

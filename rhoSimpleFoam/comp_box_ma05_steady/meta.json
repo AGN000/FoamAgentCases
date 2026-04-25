@@ -1,0 +1,28 @@
+{
+  "solver": "rhoSimpleFoam",
+  "prompt": "steady compressible channel flow at Mach 0.5, L=2m, H=0.1m, air, rhoSimpleFoam",
+  "score": 0.55,
+  "runtime_s": 0.01,
+  "params": {
+    "geometry_type": "box",
+    "is_3d": false,
+    "length": 2.0,
+    "width": 0.1,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 1157295.6983128097,
+    "inlet_velocity": 173.59435474692143,
+    "outlet_pressure": 101325.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": true,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 500.0,
+    "angle_of_attack": null,
+    "extraction_notes": "compressible box Ma=0.5 L=2.0m H=0.1m"
+  }
+}

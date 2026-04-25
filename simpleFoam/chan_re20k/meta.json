@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "fully developed turbulent channel flow: Re=20000, height=0.2m, length=4m, 2D",
+  "score": 0.8201385090342441,
+  "runtime_s": 3.76,
+  "params": {
+    "geometry_type": "channel",
+    "is_3d": false,
+    "length": 4.0,
+    "width": 0.2,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 20000.0,
+    "inlet_velocity": 2.9999999999999996,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "channel flow Re=20000 L=4.0m H=0.2m"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "Simulate turbulent flow in a 3D circular pipe with a diameter of 0.04 meters and a length of 0.4 meters. The fluid is air with a kinematic viscosity of \\(1.5 \\times 10^{-5} \\, \\text{m}^2/\\text{s}\\) and a density of \\(1.225 \\, \\text{kg}/\\text{m}^3\\). The Reynolds number is given as 30,000. The flow is turbulent. The simulation is steady-state. The turbulence model to be used is kOmegaSST. The inlet velocity magnitude is calculated to be \\(1.5 \\, \\text{m/s}\\) to achieve the specified Reynolds number. The domain is 3D.",
+  "score": 0.8925423571685367,
+  "runtime_s": 43.58,
+  "params": {
+    "geometry_type": "pipe",
+    "is_3d": true,
+    "length": 0.5,
+    "width": 0.04,
+    "height": 0.04,
+    "diameter": 0.04,
+    "reynolds_number": 2666.6666666666665,
+    "inlet_velocity": 1.0,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "transitional",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "The simulation is for turbulent flow in a 3D circular pipe with specified Reynolds number, diameter, and fluid properties. The inlet velocity is calculated to match the given Reynolds number. The domain is 3D, and the turbulence model is set to kOmegaSST for turbulent flow. The simulation is steady-state with an end time of 1000 time units."
+  }
+}

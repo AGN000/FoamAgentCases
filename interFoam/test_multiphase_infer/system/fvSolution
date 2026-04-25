@@ -1,0 +1,95 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \    /   O peration     | Version:  v2412                                 |
+|   \  /    A nd           | Website:  www.openfoam.com                      |
+|    \/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      fvSolution;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+solvers
+{
+    p_rgh
+    {
+        solver          PCG;
+        preconditioner  DIC;
+        tolerance       1.00e-06;
+        relTol          0;
+    }
+    p_rghFinal
+    {
+        $p_rgh;
+        relTol          0;
+    }
+    U
+    {
+        solver          smoothSolver;
+        smoother        GaussSeidel;
+        tolerance       1.00e-05;
+        relTol          0;
+    }
+    UFinal
+    {
+        $U;
+        relTol          0;
+    }
+    "alpha.water.*"
+    {
+        nAlphaCorr          2;
+        nAlphaSubCycles     1;
+        cAlpha              1;
+    }
+    pcorr
+    {
+        solver          PCG;
+        preconditioner  DIC;
+        tolerance       1.00e-06;
+        relTol          0;
+    }
+    pcorrFinal
+    {
+        $pcorr;
+        relTol          0;
+    }
+    k
+    {
+        solver          smoothSolver;
+        smoother        GaussSeidel;
+        tolerance       1.00e-05;
+        relTol          0;
+    }
+    kFinal
+    {
+        $k;
+        relTol          0;
+    }
+    omega
+    {
+        solver          smoothSolver;
+        smoother        GaussSeidel;
+        tolerance       1.00e-05;
+        relTol          0;
+    }
+    omegaFinal
+    {
+        $omega;
+        relTol          0;
+    }
+}
+
+PIMPLE
+{
+    nCorrectors     3;
+    nNonOrthogonalCorrectors 0;
+    pRefCell        0;
+    pRefValue       0;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

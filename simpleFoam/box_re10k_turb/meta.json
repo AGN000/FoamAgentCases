@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "turbulent duct flow 2D, Re=10000, L=3m, H=0.1m, kOmegaSST, air",
+  "score": 0.6000000000000001,
+  "runtime_s": 0.02,
+  "params": {
+    "geometry_type": "box",
+    "is_3d": false,
+    "length": 3.0,
+    "width": 0.1,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 10000.0,
+    "inlet_velocity": 1.4999999999999998,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "box/duct flow Re=10000 L=3.0m H=0.1m"
+  }
+}

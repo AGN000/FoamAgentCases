@@ -1,0 +1,28 @@
+{
+  "solver": "pimpleFoam",
+  "prompt": "transient turbulent channel flow Re=10000, length 5m, height 0.1m, time-accurate RANS",
+  "score": 0.8613389003763429,
+  "runtime_s": 144.88,
+  "params": {
+    "geometry_type": "channel",
+    "is_3d": false,
+    "length": 5.0,
+    "width": 0.1,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 10000.0,
+    "inlet_velocity": 2.9999999999999996,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 10.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient channel Re=10000 L=5.0m H=0.1m"
+  }
+}

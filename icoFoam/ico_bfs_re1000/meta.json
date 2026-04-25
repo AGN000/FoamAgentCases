@@ -1,0 +1,28 @@
+{
+  "solver": "icoFoam",
+  "prompt": "laminar backward facing step Re=1000, h=0.15m, transient icoFoam",
+  "score": 0.7643474876116108,
+  "runtime_s": 1.64,
+  "params": {
+    "geometry_type": "backward_facing_step",
+    "is_3d": false,
+    "length": 0.5,
+    "width": 0.3,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 1000.0,
+    "inlet_velocity": 0.1,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 10.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient BFS Re=1000 h=0.15m"
+  }
+}

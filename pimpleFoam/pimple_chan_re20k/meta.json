@@ -1,0 +1,28 @@
+{
+  "solver": "pimpleFoam",
+  "prompt": "unsteady turbulent channel Re=20000, L=4m, H=0.2m, 2D air, pimpleFoam",
+  "score": 0.8694408697959266,
+  "runtime_s": 92.0,
+  "params": {
+    "geometry_type": "channel",
+    "is_3d": false,
+    "length": 4.0,
+    "width": 0.2,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 20000.0,
+    "inlet_velocity": 2.9999999999999996,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 10.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient channel Re=20000 L=4.0m H=0.2m"
+  }
+}

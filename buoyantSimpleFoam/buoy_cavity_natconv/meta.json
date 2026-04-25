@@ -1,0 +1,28 @@
+{
+  "solver": "buoyantSimpleFoam",
+  "prompt": "natural convection in a 1m square cavity with temperature gradient, buoyantSimpleFoam",
+  "score": 0.8210465671425298,
+  "runtime_s": 5.68,
+  "params": {
+    "geometry_type": "lid_driven_cavity",
+    "is_3d": false,
+    "length": 1.0,
+    "width": 1.0,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 100.0,
+    "inlet_velocity": 0.01,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": true,
+    "is_multiphase": false,
+    "end_time": 2000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "buoyancy-driven cavity \u2192 buoyantSimpleFoam"
+  }
+}

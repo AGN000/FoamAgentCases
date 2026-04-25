@@ -1,0 +1,28 @@
+{
+  "solver": "interFoam",
+  "prompt": "large-scale dam break simulation: 8m \u00d7 4m domain, water and air, interFoam 2D",
+  "score": 0.8385720011159091,
+  "runtime_s": 0.01,
+  "params": {
+    "geometry_type": "box",
+    "is_3d": false,
+    "length": 8.0,
+    "width": 4.0,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 50000.0,
+    "inlet_velocity": 0.01,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1e-06,
+    "density": 1000.0,
+    "flow_regime": "turbulent",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": true,
+    "end_time": 1.0,
+    "angle_of_attack": null,
+    "extraction_notes": "dam break VOF L=8.0m H=4.0m \u2192 interFoam"
+  }
+}

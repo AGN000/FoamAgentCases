@@ -1,0 +1,28 @@
+{
+  "solver": "icoFoam",
+  "prompt": "laminar BFS Re=1500, h=0.1m, transient air icoFoam 2D",
+  "score": 0.7593978397647572,
+  "runtime_s": 8.55,
+  "params": {
+    "geometry_type": "backward_facing_step",
+    "is_3d": false,
+    "length": 0.4,
+    "width": 0.2,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 1500.0,
+    "inlet_velocity": 0.22499999999999998,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 10.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient BFS Re=1500 h=0.1m"
+  }
+}

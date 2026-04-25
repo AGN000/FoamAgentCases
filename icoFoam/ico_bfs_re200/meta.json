@@ -1,0 +1,28 @@
+{
+  "solver": "icoFoam",
+  "prompt": "laminar BFS Re=200, step h=0.05m, transient icoFoam",
+  "score": 0.7674485131918874,
+  "runtime_s": 12.61,
+  "params": {
+    "geometry_type": "backward_facing_step",
+    "is_3d": false,
+    "length": 0.30000000000000004,
+    "width": 0.1,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 200.0,
+    "inlet_velocity": 0.06,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 10.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient BFS Re=200 h=0.05m"
+  }
+}

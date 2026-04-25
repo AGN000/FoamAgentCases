@@ -1,0 +1,28 @@
+{
+  "solver": "buoyantSimpleFoam",
+  "prompt": "turbulent natural convection in a 2m \u00d7 2m differentially heated enclosure, air, Ra > 1e9",
+  "score": 0.8152131688162665,
+  "runtime_s": 140.96,
+  "params": {
+    "geometry_type": "lid_driven_cavity",
+    "is_3d": false,
+    "length": 2.0,
+    "width": 2.0,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 1000.0,
+    "inlet_velocity": 0.01,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": true,
+    "is_multiphase": false,
+    "end_time": 2000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "buoyancy cavity size=2.0m turb \u2192 buoyantSimpleFoam"
+  }
+}

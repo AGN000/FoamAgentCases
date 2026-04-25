@@ -1,0 +1,28 @@
+{
+  "solver": "icoFoam",
+  "prompt": "unsteady laminar flow around a cylinder Re=300, D=0.1m, 2D air, icoFoam",
+  "score": 0.8718360572166615,
+  "runtime_s": 77.24,
+  "params": {
+    "geometry_type": "cylinder",
+    "is_3d": false,
+    "length": 2.0,
+    "width": 0.8,
+    "height": 0.001,
+    "diameter": 0.1,
+    "reynolds_number": 300.0,
+    "inlet_velocity": 0.045000000000000005,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 20.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient cylinder Re=300 D=0.1m"
+  }
+}

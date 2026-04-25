@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "2D lid-driven cavity, Re=100, water as fluid (nu=1e-6 m2/s, rho=1000 kg/m3)",
+  "score": 0.773233623249294,
+  "runtime_s": 6.1,
+  "params": {
+    "geometry_type": "lid_driven_cavity",
+    "is_3d": false,
+    "length": 1.0,
+    "width": 1.0,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 100.0,
+    "inlet_velocity": 9.999999999999999e-05,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1e-06,
+    "density": 1000.0,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 2000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "lid-driven cavity Re=100"
+  }
+}

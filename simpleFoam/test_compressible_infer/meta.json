@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "A 2D channel flow problem with a length of 2 meters and a height of 0.1 meters. The fluid is air with a kinematic viscosity of \\(1.5 \\times 10^{-5} \\, \\text{m}^2/\\text{s}\\) and a density of \\(1.225 \\, \\text{kg}/\\text{m}^3\\). The flow is steady-state. The inlet velocity is specified at Mach 0.5, which translates to a velocity of \\(150 \\, \\text{m/s}\\) assuming the speed of sound in air is \\(300 \\, \\text{m/s}\\). The Reynolds number is calculated as \\(Re = U \\times L / \\nu = 150 \\times 2 / 1.5 \\times 10^{-5} = 2000000\\), indicating a turbulent flow regime. The appropriate turbulence model for this problem is the kOmegaSST model. The domain depth is 0.001 meters, with a single-cell empty boundary condition at the top.",
+  "score": 0.8007844869849663,
+  "runtime_s": 0.79,
+  "params": {
+    "geometry_type": "channel",
+    "is_3d": false,
+    "length": 2.0,
+    "width": 1.0,
+    "height": 0.001,
+    "diameter": 0.0,
+    "reynolds_number": 10000000.0,
+    "inlet_velocity": 150.0,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": 0.0,
+    "extraction_notes": "2D channel flow with specified inlet velocity and Reynolds number indicating turbulent flow."
+  }
+}

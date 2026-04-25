@@ -1,0 +1,28 @@
+{
+  "solver": "pimpleFoam",
+  "prompt": "unsteady high-Re backward step flow, Re=10000, h=0.1m, 2D turbulent, pimpleFoam kOmegaSST",
+  "score": 0.8870060242858282,
+  "runtime_s": 186.41,
+  "params": {
+    "geometry_type": "backward_facing_step",
+    "is_3d": false,
+    "length": 0.4,
+    "width": 0.2,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 10000.0,
+    "inlet_velocity": 1.4999999999999998,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 10.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient BFS Re=10000 h=0.1m"
+  }
+}

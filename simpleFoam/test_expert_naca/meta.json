@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "A 2D simulation of the NACA0012 airfoil with a chord length of 0.5 meters at an angle of attack (AoA) of 4 degrees. The flow is air with a kinematic viscosity of 1.5e-5 m^2/s and a density of 1.225 kg/m^3. The Reynolds number is 800,000, indicating a turbulent flow regime. The simulation is time-dependent and will use the kOmegaSST turbulence model. The domain is 2D with a depth of 0.001 meters. The flow is steady-state.",
+  "score": 0.8955608747121959,
+  "runtime_s": 2.11,
+  "params": {
+    "geometry_type": "airfoil",
+    "is_3d": false,
+    "length": 4.0,
+    "width": 4.0,
+    "height": 0.001,
+    "diameter": 0.5,
+    "reynolds_number": 33333333.333333332,
+    "inlet_velocity": 1000.0,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": 4.0,
+    "extraction_notes": "2D simulation of NACA0012 airfoil with chord length 0.5 meters, Reynolds number 800,000, and steady-state flow."
+  }
+}

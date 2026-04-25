@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "cylinder wake simulation at Re=500, diameter=0.05m, 2D steady",
+  "score": 0.8059843480958424,
+  "runtime_s": 35.97,
+  "params": {
+    "geometry_type": "cylinder",
+    "is_3d": false,
+    "length": 2.0,
+    "width": 0.8,
+    "height": 0.001,
+    "diameter": 0.05,
+    "reynolds_number": 500.0,
+    "inlet_velocity": 0.15,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "cylinder flow Re=500 D=0.05m"
+  }
+}

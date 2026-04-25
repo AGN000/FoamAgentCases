@@ -1,0 +1,28 @@
+{
+  "solver": "icoFoam",
+  "prompt": "cylinder Re=200 transient, D=0.05m, 2D laminar wake icoFoam",
+  "score": 0.8768203383457391,
+  "runtime_s": 70.87,
+  "params": {
+    "geometry_type": "cylinder",
+    "is_3d": false,
+    "length": 2.0,
+    "width": 0.8,
+    "height": 0.001,
+    "diameter": 0.05,
+    "reynolds_number": 200.0,
+    "inlet_velocity": 0.06,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 20.0,
+    "angle_of_attack": null,
+    "extraction_notes": "transient cylinder Re=200 D=0.05m"
+  }
+}

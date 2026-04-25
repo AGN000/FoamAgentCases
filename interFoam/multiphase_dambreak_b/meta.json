@@ -1,0 +1,28 @@
+{
+  "solver": "interFoam",
+  "prompt": "2D dam break: 1m water column in a 4m \u00d7 2m domain, water and air, OpenFOAM VOF",
+  "score": 0.8386566994648164,
+  "runtime_s": 0.03,
+  "params": {
+    "geometry_type": "box",
+    "is_3d": false,
+    "length": 4.0,
+    "width": 2.0,
+    "height": 0.001,
+    "diameter": null,
+    "reynolds_number": 50000.0,
+    "inlet_velocity": 0.01,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1e-06,
+    "density": 1000.0,
+    "flow_regime": "turbulent",
+    "turbulence_model": "laminar",
+    "is_transient": true,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": true,
+    "end_time": 1.0,
+    "angle_of_attack": null,
+    "extraction_notes": "dam break VOF L=4.0m H=2.0m \u2192 interFoam"
+  }
+}

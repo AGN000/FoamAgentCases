@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "turbulent axisymmetric pipe flow with wedge: Re=10000, diameter=5cm, length=0.5m",
+  "score": 0.8811087507678074,
+  "runtime_s": 52.72,
+  "params": {
+    "geometry_type": "wedge",
+    "is_3d": true,
+    "length": 0.5,
+    "width": 0.05,
+    "height": 0.05,
+    "diameter": 0.05,
+    "reynolds_number": 10000.0,
+    "inlet_velocity": 2.9999999999999996,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "turbulent",
+    "turbulence_model": "kOmegaSST",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": null,
+    "extraction_notes": "axisymmetric wedge pipe Re=10000 D=0.05m L=0.5m"
+  }
+}

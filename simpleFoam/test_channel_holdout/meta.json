@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "A 2D channel flow with a height of 0.08 meters and a length of 4 meters is to be simulated. The fluid is air with a kinematic viscosity of \\(1.5 \\times 10^{-5} \\, \\text{m}^2/\\text{s}\\) and a density of \\(1.225 \\, \\text{kg}/\\text{m}^3\\). The Reynolds number is 8000, indicating a turbulent flow regime. The appropriate turbulence model is kOmegaSST. The flow is steady-state, and the domain depth is 0.001 meters with a single-cell empty boundary condition.",
+  "score": 0.7631073996536928,
+  "runtime_s": 27.3,
+  "params": {
+    "geometry_type": "channel",
+    "is_3d": false,
+    "length": 10.0,
+    "width": 1.0,
+    "height": 0.001,
+    "diameter": 0.08,
+    "reynolds_number": 8.0,
+    "inlet_velocity": 0.0015,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": 0.0,
+    "extraction_notes": "2D channel flow with specified Reynolds number and turbulence model."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "solver": "simpleFoam",
+  "prompt": "A 2D channel flow simulation with a height of 0.05 meters and a length of 0.5 meters. The fluid is water with a kinematic viscosity of 1e-6 m^2/s and a density of 1000 kg/m^3. The flow is laminar with a Reynolds number of 1500. The inlet velocity is 0.03 m/s in the x-direction. The domain depth is 0.001 meters with a single-cell empty boundary condition. The simulation is steady-state and uses the laminar turbulence model.",
+  "score": 0.7974592570022778,
+  "runtime_s": 26.4,
+  "params": {
+    "geometry_type": "channel",
+    "is_3d": false,
+    "length": 10.0,
+    "width": 1.0,
+    "height": 0.001,
+    "diameter": 0.05,
+    "reynolds_number": 100.0,
+    "inlet_velocity": 0.03,
+    "outlet_pressure": 0.0,
+    "kinematic_viscosity": 1.5e-05,
+    "density": 1.225,
+    "flow_regime": "laminar",
+    "turbulence_model": "laminar",
+    "is_transient": false,
+    "is_compressible": false,
+    "has_heat_transfer": false,
+    "is_multiphase": false,
+    "end_time": 1000.0,
+    "angle_of_attack": 0.0,
+    "extraction_notes": "2D channel flow simulation with specified parameters. Fluid is water, and the flow is laminar with a Reynolds number of 1500. The domain depth is set to 0.001 meters for the empty boundary condition."
+  }
+}
