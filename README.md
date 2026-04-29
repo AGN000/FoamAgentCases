@@ -175,14 +175,3 @@ self-contained, runnable OpenFOAM v2412 setup.
 
 MIT.
 
-## Citation
-
-```bibtex
-@misc{foamagentcases_2026,
-  title  = {FoamAgentCases: A library of validated runnable OpenFOAM v2412 cases},
-  author = {Neelan, Arun Govind},
-  year   = {2026},
-  howpublished = {GitHub repository},
-  url    = {https://github.com/AGN000/FoamAgentCases}
-}
-```
